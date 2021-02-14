@@ -8,5 +8,7 @@ for(var i = 0; i < buttonList.length; i++){
 }
 
 function handleClick(){
-  alert("I got clicked!");
+  var audio = new Audio('sounds/tom-3.mp3');
+  audio.play();
+
 }
